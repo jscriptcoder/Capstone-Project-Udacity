@@ -74,10 +74,12 @@ def adf_test(series):
         
     print (dfoutput)
 
-def plot_series(series, title='', figsize=(15, 6)):
+def plot_series(series, title='', legend=None, figsize=(15, 6)):
     fig, ax = plt.subplots(figsize=figsize)
     plt.plot(series)
     ax.set_title(title)
+    if legend is not None:
+        ax.legend(legend)
 
 def difference(series, n=1):
     return np.hstack((series[0], np.diff(series)))
@@ -179,3 +181,7 @@ def plot_columns(df, columns, fromTo=None, figsize=(15, 6)):
         
     for column in columns:
         df.reset_index().plot(ax=ax, x='Date', y=column)
+
+def freeze_layers(model, freeze=True):
+    for layer in model.layers:
+        layer.trainable = freeze
