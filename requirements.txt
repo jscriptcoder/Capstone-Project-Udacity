@@ -1,0 +1,5 @@
+mpl-finance
+statsmodels
+pyramid-arima
+ta
+scipy
