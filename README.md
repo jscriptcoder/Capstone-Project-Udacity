@@ -9,4 +9,4 @@ Generative Adversarial Networks for Stock Market prediction
 - matplotlib 3.0.2
 - seaborn 0.9.0
 
-Please, refer to requirements.txt for other libraries
+Please, refer to [requirements.txt](requirements.txt) for other libraries
