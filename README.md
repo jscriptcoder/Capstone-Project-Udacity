@@ -1,8 +1,7 @@
 # Generative Adversarial Networks for Stock Market prediction
 
-[Project Proposal](Project%20Proposal.pdf)
-
-[Project Report](Project%20Report.pdf)
+- [Project Proposal](Project%20Proposal.pdf)
+- [Project Report](Project%20Report.pdf)
 
 ### Libraries used:
 - TensorFlow 1.12.0
